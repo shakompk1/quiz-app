@@ -159,7 +159,7 @@ class Quiz extends React.Component {
             //     this.state.activeQuestion === this.state.quiz.length - 1,
         });
         //Ты должен собрать обьект из пропсов что приходят а ключем обьекта должны быть id вопроса то есть по сути ты должен пробрасывать id до самого низа
-        console.log(this.state.activeQuestion)
+        console.log(props)
     };
     render() {
         return (

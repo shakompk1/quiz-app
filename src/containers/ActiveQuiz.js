@@ -13,6 +13,7 @@ function ActiveQuiz(props) {
             </div>
             <AnswerLists
                 answers={props.quiz.answers}
+                answersId={props.quiz.id}
                 onAnswerClick={props.onAnswerClick}
             />
         </div>
